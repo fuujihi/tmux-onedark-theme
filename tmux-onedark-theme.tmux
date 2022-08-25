@@ -61,10 +61,8 @@ setw "window-status-activity-attr" "none"
 
 setw "window-status-separator" ""
 
-set "window-style" "fg=$onedark_comment_grey"
-set "window-style" "bg=$onedark_window_black"
+set "window-style" "fg=$onedark_comment_grey,bg=$onedark_window_black"
 set "window-active-style" "fg=$onedark_white"
-set "window-active-style" "bg=$onedark_black"
 
 set "pane-border-fg" "$onedark_white"
 set "pane-border-bg" "$onedark_black"
