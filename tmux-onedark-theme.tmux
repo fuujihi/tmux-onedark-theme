@@ -35,8 +35,6 @@ setw() {
 set "status" "on"
 set "status-justify" "left"
 
-set "status-left-length" "100"
-set "status-right-length" "100"
 set "status-right-attr" "none"
 
 set "message-fg" "$onedark_white"
