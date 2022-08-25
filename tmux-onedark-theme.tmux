@@ -88,4 +88,4 @@ set "status-right" "#[fg=$onedark_white,bg=$onedark_black_deep,nounderscore,noit
 set "status-left" "#[fg=$onedark_black_deep,bg=$onedark_green,bold] #S:#I.#P #{prefix_highlight}#[fg=$onedark_green,bg=$onedark_black_deep,nobold,nounderscore,noitalics]"
 
 set "window-status-format" " #[fg=$onedark_comment_grey,bg=$onedark_black_deep] #I: #W "
-set "window-status-current-format" " #[fg=$onedark_white,bg=$onedark_black]#{?client_prefix,#[fg=$onedark_green],} #I: #W "
+set "window-status-current-format" " #[fg=$onedark_white,bg=$onedark_window_black]#{?client_prefix,#[fg=$onedark_yellow],} #I: #W "
