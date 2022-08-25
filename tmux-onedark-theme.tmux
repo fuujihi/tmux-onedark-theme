@@ -55,7 +55,7 @@ setw "window-status-bg" "$onedark_black"
 setw "window-status-attr" "none"
 
 setw "window-status-activity-bg" "$onedark_black"
-setw "window-status-activity-fg" "$onedark_black"
+setw "window-status-activity-fg" "$onedark_black_deep"
 setw "window-status-activity-attr" "none"
 
 setw "window-status-separator" ""
