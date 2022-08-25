@@ -39,8 +39,6 @@ set "status-interval" "1"
 set "status-justify" "centre"
 set "status-position" "top"
 
-set "status-right-attr" "none"
-
 set "message-fg" "$onedark_white"
 set "message-bg" "$onedark_black"
 
@@ -49,6 +47,7 @@ set "message-command-bg" "$onedark_black"
 
 set "status-attr" "none"
 set "status-left-attr" "none"
+set "status-right-attr" "none"
 
 setw "window-status-fg" "$onedark_black"
 setw "window-status-bg" "$onedark_black"
