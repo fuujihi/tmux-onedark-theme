@@ -39,8 +39,6 @@ set "status-interval" "1"
 set "status-justify" "centre"
 set "status-position" "top"
 
-set "status-left-length" "100"
-set "status-right-length" "100"
 set "status-right-attr" "none"
 
 set "message-fg" "$onedark_white"
