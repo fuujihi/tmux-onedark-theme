@@ -88,6 +88,6 @@ set "status-left" "#[fg=$onedark_black,bg=$onedark_green] #S:#I.#P #[fg=$onedark
 set "window-status-format" " #[fg=$onedark_visual_grey,bg=$onedark_black_deep] #I:#[fg=$onedark_comment_grey]#W#[fg=$onedark_comment_grey]#F "
 set "window-status-current-format" " #[fg=$onedark_green,bg=$onedark_window_black,bold]#{?client_prefix,#[fg=$onedark_red],} #I#[fg=$onedark_comment_grey]:#[fg=$onedark_white]#W#[fg=$onedark_comment_grey]#F "
 
-dir="#(cd #{pane_current_path} && sh ./dir.sh)"
+dir="#(cd #{pane_current_path} && sh $HOME/.tmux/plugins/tmux-onedark-theme/dir.sh)"
 set "window-status-format" "#[fg=$onedark_visual_grey,bg=$onedark_black_deep] #I:#[fg=$onedark_comment_grey]${dir}#[fg=$onedark_comment_grey] "
 set "window-status-current-format" "#[fg=$onedark_green,bg=$onedark_window_black,bold]#{?client_prefix,#[fg=$onedark_red],} #I#[fg=$onedark_comment_grey]:#[fg=$onedark_white]${dir}#[fg=$onedark_comment_grey] "
